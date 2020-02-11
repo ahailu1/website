@@ -1,0 +1,99 @@
+.calendar__header{
+    text-align: center;
+    width: 100%;
+height: auto;
+flex-direction: column;
+letter-spacing: 1px;
+    color: black;
+    display: flex;
+font-size: 2rem;
+padding: 1rem;
+flex-shrink: 2;
+flex-basis: auto;
+background-color: #e4e4e4;
+border-bottom: solid #2f9bff 1.5px;
+}
+
+
+.calendar__data{
+    height: auto;
+    color: #2f9bff;
+    padding: 1.5rem;
+    background-color: #dadada;
+width: 20%;
+&--title{
+    height: 5%;
+    font-size: 1rem;
+    text-shadow: black 1rem 1px 0 0;
+width: 100%;
+text-align: left;
+}
+&--inputdata{
+    width: 80%;
+    margin: 1rem 0 1rem 0;
+}
+&--inputbox{
+    color: black;
+    background-color: #a3a3a3;
+}
+
+&--sub{
+margin-left: 4rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    width: 100%;
+}
+}
+.calendar__time-start{
+    border-top: solid black;
+    width: 90%;
+margin-top: 2rem;
+}
+
+.calendar__start--container{
+    height: 10%;
+
+flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+display: inline-flex;
+}
+
+.calendar__time-end{
+    flex-wrap: wrap;
+    width: 95%;
+display: inline-flex;
+}
+.calendar__input{
+margin-right: 1rem;
+width: 4rem;
+}
+
+.data{
+margin-right: 1rem;
+    width:30%;
+padding: 0rem 1rem 0rem 0rem;
+}
+
+.calendar__data--radio-button{
+    margin-left: 3px;
+}
+
+
+.calendar__instructions{
+    padding: 2rem;
+    background-color: #dadada;
+border-left :solid #2f9bff 0.5px;
+    text-align: center;
+width: 25%;
+display: flex;
+flex-direction: column;
+
+&--container{
+    padding: 1rem;
+    font-size: 10px;
+    text-align: start;
+    text-transform: capitalize;
+    height: 15%;
+}
+}

@@ -1,0 +1,102 @@
+.calendar{
+    //background-image: url("https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    margin-top: 3rem;
+    flex-wrap: wrap;
+flex-direction: row;
+    padding: 5rem;
+    display: inline-flex;
+
+&__container{
+   width:55%;
+    background-color: whitesmoke;
+display: inline-flex;
+}
+}
+
+.calendar-time__container{
+
+}
+
+.calendar-time{
+    height: 100%;
+    letter-spacing: 2px;
+    color: white;
+background-color: #2f9bff;
+text-align: center;
+width:50%;
+font-size: 1rem;
+
+&__heading{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 7rem;
+}
+
+&__input{
+height: 1.75rem;
+
+&:not(:first-of-type){
+    
+    text-align: center;
+    border-bottom: solid white 1px;
+}
+&:nth-of-type(2n + 1){
+
+    text-shadow: black 0px 0px 0.5px;
+color: black;
+
+}
+
+&-heading{
+text-shadow: whitesmoke 0px 1px 1px;
+font-style: italic;
+
+
+&--sub-heading{
+}}}}
+
+.calendar-date{
+    color:#2f9bff;
+background-color: white;
+text-align: center;
+width:25%;
+font-size: 1rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+&__heading{
+    margin-bottom: 1rem;
+
+    height: 7rem;
+    padding: 1rem;
+}
+
+
+&__input{
+    height: 1.75rem;
+    border-bottom: solid #2f9bff 1px;
+
+border-right: solid black 1px;
+
+&--placeholder{
+opacity: 0;
+
+   }     
+&-text{
+
+text-transform: uppercase;
+opacity: 0;
+
+}
+
+&--heading{
+    text-shadow: whitesmoke 0px 1px 1px;
+    font-style: italic;
+
+
+}
+
+}
+}
+

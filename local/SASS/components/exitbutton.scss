@@ -1,0 +1,17 @@
+.home{
+text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    margin-left: 90%;
+    text-decoration: none;
+    cursor: default;
+padding: 1rem 1.5rem;
+
+
+&:hover{
+    background-color: #2f9bff;
+    color: white;
+    width: 25%;
+
+}
+}

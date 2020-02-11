@@ -1,0 +1,18 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "home": "node-sass SASS/home.scss CSS/home.css -w",
+    "portfolio": "node-sass SASS/portfolio.scss CSS/portfolio.css -w",
+    "createAccount": "node-sass SASS/createAccount.scss CSS/createAccount.CSS -w",
+  "loginForm": "node-sass SASS/loginForm.scss CSS/loginPage.css -w"  
+},
+  "author": "alexander h",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

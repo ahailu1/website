@@ -1,0 +1,54 @@
+.form__button{
+
+    border: none;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #2f9bff;
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 3.5rem;
+margin-top: 2rem;
+&:focus{
+    outline: none;
+
+}
+&:hover{
+    color: white;
+    background-color: rgb(12, 134, 248) 
+}
+&:after:hover{
+    color: white;
+}
+&:target{
+    opacity: 1;
+}
+& a{
+    cursor: default;
+&:visited{
+    color: black;
+}
+}
+
+&--small{
+    text-transform: capitalize;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #2f9bff;
+    height: 2rem;
+    width: 100%;
+
+&:hover{
+    background-color: #322fff;
+    color: white;
+    text-shadow: black 2px 1px 1px 1px;
+}
+
+}
+
+}
+
