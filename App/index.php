@@ -1,5 +1,4 @@
 <?php
-
 //require "Controller/createaccount.php";
 require "core/bootstrap.php";
 require "routes.php";
@@ -8,6 +7,9 @@ require "routes.php";
 // router reads routes and directs trafic to controller
 
 $init = new request();
+
+
+
 //var_dump(new connection);
 //$uri = explode("/", $hello);
 //$hello =  rsplit($uri, "/")[2];

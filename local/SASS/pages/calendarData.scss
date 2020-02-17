@@ -1,25 +1,26 @@
 .calendar__header{
+    background-color: whitesmoke;
+    border: solid black;
     text-align: center;
-    width: 100%;
-height: auto;
+width: 100%;
+z-index: 200;
+flex-wrap: wrap;
 flex-direction: column;
 letter-spacing: 1px;
     color: black;
     display: flex;
-font-size: 2rem;
-padding: 1rem;
+font-size: 1rem;
+height: 10rem;
 flex-shrink: 2;
 flex-basis: auto;
-background-color: #e4e4e4;
 border-bottom: solid #2f9bff 1.5px;
 }
 
-
 .calendar__data{
+background-color: grey;
     height: auto;
     color: #2f9bff;
     padding: 1.5rem;
-    background-color: #dadada;
 width: 20%;
 &--title{
     height: 5%;
@@ -82,7 +83,6 @@ padding: 0rem 1rem 0rem 0rem;
 
 .calendar__instructions{
     padding: 2rem;
-    background-color: #dadada;
 border-left :solid #2f9bff 0.5px;
     text-align: center;
 width: 25%;

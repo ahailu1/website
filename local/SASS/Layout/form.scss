@@ -1,70 +1,68 @@
-.form{
-    height: 100vh;
-width: 100%;
-
-&__block {
-    margin: 5rem auto;
-    background-color: whitesmoke;
-    height: 100%;
-width: 100%;
-    display: inline-flex;
+.form__block{
+    background-image: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    width: 100%;
+    background-position: center;
 }
 
-&__pics{
-    width: 35%;
-    height: 100%;
-}
-&__picture{
+.form__body{
+margin:15rem auto 5rem auto;
+z-index: 20;
     display: flex;
-    height: 50%;
-    width: 100%;
-}
-
-&__body{
-padding: 5rem;
+    flex-direction: column;
+height: 60%;
 width: 30%;
+
+&--header{
 }
-&__container{
-margin-top: 2rem;
+}
+.form__container--sign{
+    text-decoration: underline;
+    border-top:solid #2f9bff;
+    border-right:solid #2f9bff;
+    border-left:solid #2f9bff;
+    border-bottom:solid #2f9bff;
+    background-color: whitesmoke;
+    color: #2f9bff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+font-size: 4rem;
+}
 
-&--button{
-    width: 100%;
-    justify-content: space-between;
-    display: inline-flex;
-
-&-text{
+.form__container{
+    border-top: none;
+    border-right: solid #2f9bff;
+    border-left: solid #2f9bff;
+border-bottom: solid #2f9bff ;
+    background-color: whitesmoke;
     color: black;
-    margin-top:2rem;
-    font-size: 1rem;
+    height: 100%;
+    //background-color: rgba(0, 0, 0, 0.55);
+    &--item{
+    margin: 0 auto;
+    width: 55%;
+padding: 1rem 1rem 1rem 0;
 }
-}
+&--button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
 
-}
-&__document{
-    padding: 5rem;
-    width: 35%;
-
-&--text{
-    border-bottom: solid rgb(236, 236, 236);
-    text-align: left;
-    font-size: 1.25rem;
-}
-
-}
-
-&__label{
-    border-radius: 1px;  
-    height: 4rem;
-    width: 25rem;
-border: solid #2f9bff;
-background-color: white;
-&:focus{
-    outline: none;
-    border: solid grey;
-}
 & a:visited{
-    color:black;
+    color: black;
+}
 }
 
 }
+.form__label{
+    color: black;
+    font-size: 2rem;
+    background-color: white;
+    border: solid #2f9bff;
+    width: 100%;
+}
+.form__button--Account{
+    color: white;
+background-color: whitesmoke;
+
+
 }

@@ -1,7 +1,7 @@
 <?php
 
 
-class Connection {
+class connection {
 public $db;
 private $stmt;
 private $error;
@@ -11,7 +11,7 @@ public function __construct()
    
 }
 public function connect(){
-$config = require "config.php";
+$config = require_once "config.php";
 try {
    return new PDO($config["connection"] .
 ";dbname=".$config["name"],
@@ -71,7 +71,6 @@ public function rowCount(){
    return $this->stmt->rowCount();
 }
 }
-
 
 
 //if you wanna get a db connection type connection::connect

@@ -3,6 +3,7 @@
 class createaccount extends baseController {
     
  public function __construct(){
+     
 $this->userModel = $this->model("user");
 
  }   
@@ -76,9 +77,7 @@ $data["password"] = password_hash($data["password"],PASSWORD_DEFAULT);
 
 if($this->userModel->register($data))
 {
-    reroute("home/homey");
-    flash("register_success", "you are registered and can log in");
-
+    header("Location: http://localhost/alexportfolio/App/index.php?url=home/homey");
 }
     else {
         die("something went wrong");

@@ -25,7 +25,7 @@
                     <li class = "footer__item footer__item--2"><a href  = "#" class = "footer__link">Terms and Conditions</a></li>
                     <li class = "footer__item footer__item--3 "><a href  = "#" class = "footer__link footer__link3">Contact</a>
                     <div class = footer__logo--container><a href  = "#" class = "footer__link-logo"> <img src = "http://localhost/AlexPortfolio/Local/Images/linkedin.svg" class = "footer__item--logo"></a></div>
-                    <div class = footer__logo--container><a href  = "#" class = "footer__link-logo"><img src = "http://localhost/AlexPortfolio/Local/Images/githublogo.png" class = "footer__item--logo"></a></div>
+                    <div class = footer__logo--container><a href = "https://github.com/ahailu1/website" target="_blank"  class = "footer__link-logo"><img src = "http://localhost/AlexPortfolio/Local/Images/githublogo.png" class = "footer__item--logo"></a></div>
                 </li>
                   
                 </ul>

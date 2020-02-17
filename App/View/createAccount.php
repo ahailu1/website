@@ -15,6 +15,8 @@
 <?php require_once "helpers/sessionPage.php"?>
 <?php require_once "View/layout/header.php"; ?>
 <?php require_once "View/layout/form.php"; ?>
+
+
 <?php require_once "View/layout/footer.php";?>
 
 </body>

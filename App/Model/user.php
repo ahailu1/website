@@ -51,8 +51,9 @@ public function findUsername($data){
 $this->db->query("SELECT username FROM users WHERE username = '{$data["username"]}' ");
 //$this->db->bind(":username",$data["username"]);
 $check = $this->db->single();
-var_dump($check);
+var_dump(gettype($check));
 if($check){
+    
 return true;
 }
 else {

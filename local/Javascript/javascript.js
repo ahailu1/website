@@ -5,7 +5,7 @@
 //console.log(`hello: ${window.scrollY}`);
 //scrollable = scrollheight - inner height.
 
-
+/*
 function fixnav(){
 
 var a = document.getElementsByClassName("header__navbar");
@@ -23,7 +23,7 @@ a[0].style.opacity = "1";
 }
 });
 }
-
+*/
 
 
 

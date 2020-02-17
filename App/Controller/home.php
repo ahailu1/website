@@ -4,8 +4,9 @@ Class Home extends baseController{
 
 public function __construct()
 {
-
+$this->homey();
 }
+
 public function homey(){
 $data = [
 "username" => "",
