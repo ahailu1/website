@@ -12,26 +12,25 @@ background-position: center;
 
 }
 
-
+    
 .form{
 width: 100%;
-height: 100%;
     text-transform: uppercase;
 &__border{
     height: 60vh;
     border-radius: 2rem;
-
     margin: 10% auto;
     background-color: whitesmoke;
 width: 60%;
 opacity: 0.75;
 }
 &__container{
-
+    border: none;
+height: 20%;
     justify-content: center;
     display: flex;
     width: 50%;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
 
 &--login{
     padding: 1rem;
@@ -45,17 +44,19 @@ opacity:0.90;
 
 }
 &--button{
+    margin: 0 auto; 
     justify-content: center;
     display: flex;
-    height: 3.5rem;
-    text-align: left;
+    height: 5rem;
+vertical-align: middle;
 }
 }
 &__button{
+    padding: 1rem;
     height: auto;
     font-size: 1.75rem;
     border-radius: 1px;
-    margin: 0 1rem 0 5rem;
+    margin: 0 1rem 0 7rem;
 & a:visited{
     color: white;
 }

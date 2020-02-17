@@ -292,7 +292,6 @@ body {
 
 .form {
   width: 100%;
-  height: 100%;
   text-transform: uppercase; }
   .form__border {
     height: 60vh;
@@ -302,10 +301,12 @@ body {
     width: 60%;
     opacity: 0.75; }
   .form__container {
+    border: none;
+    height: 20%;
     justify-content: center;
     display: flex;
     width: 50%;
-    margin: 2rem auto; }
+    margin: 1.5rem auto; }
     .form__container--login {
       padding: 1rem;
       letter-spacing: 2px;
@@ -316,14 +317,16 @@ body {
       background: black;
       opacity: 0.90; }
     .form__container--button {
+      margin: 0 auto;
       justify-content: center;
       display: flex;
-      height: 3.5rem;
-      text-align: left; }
+      height: 5rem;
+      vertical-align: middle; }
   .form__button {
+    padding: 1rem;
     height: auto;
     font-size: 1.75rem;
     border-radius: 1px;
-    margin: 0 1rem 0 5rem; }
+    margin: 0 1rem 0 7rem; }
     .form__button a:visited {
       color: white; }
